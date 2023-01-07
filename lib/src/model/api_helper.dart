@@ -18,7 +18,7 @@ class ApiHelper{
        return DogList.fromJson(jsonDecode(response.body));
      }
      else{
-       throw Exception("Error");
+       throw Exception("Error message");
      }
    }catch(ex){
      throw Exception(ex);
